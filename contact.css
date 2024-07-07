@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.links {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service:hover {
+  color: orange;
+}
+.container-02 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.orange {
+  color: orange;
+}
+h1 {
+  font-size: 50px;
+  margin-left: 95px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+h3 {
+  margin-left: 100px;
+  font-weight: normal;
+}
+.form2 {
+  text-align: left;
+  margin-left: 100px;
+}
+.inp {
+  width: 40%;
+  height: 50px;
+  margin-top: 10px;
+}
+.message {
+  margin-top: 10px;
+  width: 40%;
+  height: 200px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border: solid 2px black;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.632);
+  font-size: 25px;
+  color: white;
+}
+
+#button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.container3 {
+  color: rgb(241, 240, 240);
+  background-color: rgb(80, 80, 80);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+h2 {
+  font-weight: normal;
+}

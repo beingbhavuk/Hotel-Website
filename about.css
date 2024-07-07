@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.links {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service:hover {
+  color: orange;
+}
+.container-02 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.img2 {
+  width: 50%;
+  border-radius: 100%;
+}
+.orange {
+  color: orange;
+}
+.first {
+  display: flex;
+  text-align: center;
+}
+h3 {
+  font-weight: normal;
+}
+.left {
+  margin-left: 100px;
+}
+.first:first-child {
+  flex: 2;
+}
+.first:last-child {
+  flex: 1;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("/images/test-bg.jpg");
+}
+.testimonial {
+  color: black;
+  align-content: center;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  width: 70%;
+  height: 150px;
+  background-color: rgb(196, 150, 64);
+}
+.pfp {
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.heading {
+  font-size: 3rem;
+}
